@@ -1,0 +1,8 @@
+// Test proto file
+
+package message;
+
+message ArchiveFileMessage{
+  required string message = 1;
+  optional int32 msg_type = 2;
+};
